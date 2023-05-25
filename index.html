@@ -5,29 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Coding Game</title>
-
-
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<nav>
-    <ul class="nav-bar-parent">
-      <li>View High Scores</li>
-      <li id="time">60</li>
-    </ul>
-</nav>
+
 <body>
-    <main class="center-content">
-        <h1>Coding Quiz</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aut repellat eum cum quo porro error,
-            nulla
-            distinctio? Quas ab impedit molestiae ipsa commodi quia repellat necessitatibus qui, aut dolor. Omnis iusto
-            consequatur dolor repudiandae, fugit nisi fuga a. Voluptatum, sit officia.
-        </p>
-        <button id="start-btn">Start Game</button>
+
+    <header>
+        <p id="score_keeper">View High Scores: </p>
+        <p id="timer">Time: 50</p>
+    </header>
+
+    <main >
+        <div class="opening_screen">
+            <p>Click to Start</p>
+            <button id="start">Start</button>
+        </div>
+        <div class="question_container hide">
+            <h2 id="question"></h2>
+
+            <div class="answer_buttons">
+                <button class="button" id="anwser1"></button>
+                <button class="button" id="anwser2"></button>
+                <button class="button" id="anwser3"></button>
+            </div>
+            
+        </div>
+        
+        
+        <hr>
+
+        <div class="answer" id="anwser_text"></div>
+
     </main>
-    <script src="./javascript/index.js"></script>
+
+    <script src="Quiz.js"></script>
 </body>
 
 </html>

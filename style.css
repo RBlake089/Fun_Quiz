@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+
+}
+
+main p {
+    color: white
+}
+
+.button {
+
+    background-color: blue;
+    font-size: 30px;
+    margin: 30px;
+    padding-left: 15px;
+    width: 40%;
+
+    color: white;
+
+
+    text-align: center;
+    text-align: left;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: yellow;
+
+}
+
+main h2 {
+    text-align: center;
+
+}
+
+.answer {
+    font-size: 30px;
+}
+.hide{
+    display: none;
+}
