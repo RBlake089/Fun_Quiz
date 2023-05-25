@@ -102,3 +102,4 @@ function check(htmlElement){
 startButton.addEventListener("click", function(){
   startQuiz();
 });
+// mmm
